@@ -1,0 +1,18 @@
+{
+  "name": "electron-windows",
+  "version": "0.1.0",
+  "description": "Exploring template-driven electron BrowserWindow management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sam Francisco",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.10"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  }
+}
