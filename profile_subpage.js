@@ -1,8 +1,7 @@
-const { ipcRenderer } = require("electron");
-const events = require("./configs/events");
+const { remote } = require('electron');
 
 $(document).ready(() => {
-  $("#close_modal_window").click(e => {
-    ipcRenderer.send(events.closeModalWindow);
-  });
+	$('#close_modal_window').click((e) => {
+		remote.getCurrentWindow().close();
+	});
 });
